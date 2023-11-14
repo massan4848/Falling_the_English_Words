@@ -1,0 +1,4 @@
+ - This application mimics the following sites. 
+   - ["英単語が降ってくるサイトを作ろう" 2023/11/12](https://qiita.com/shinonome8090/items/3e00b88a988f5e92fa95)
+ - It is difficult to click a word because of moving.
+ - This application is good for next steps for beginners.

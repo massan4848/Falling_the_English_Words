@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+#word-container{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*今はidの要素としているがbodyに対しての場合は＃を取り除く*/
+/*#body{
+    background-image: url('');/*画像のパスを指定*/
+/*    background-size: cover; /* 画像がコンテナにフィットするようにサイズを調整*/
+/*    background-position: center;/*画像をコンテナの中央に配置*/
+/*    background-repeat: no-repeat; /*画像を繰り返さない*/
+/*    background-attachment: fixed; /*画像をスクロールに合わせて動かさない*/
+/*}*/
+
+.word {
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Itim', cursive;
+    font-size: 24px;
+    color: blue;
+}
+
+@keyframes fall {
+    0% {top: -50px;}
+    100% {top: 100vh;}
+}
